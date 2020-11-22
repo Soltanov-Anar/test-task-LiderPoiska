@@ -1,0 +1,292 @@
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 575px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        &__form {
+            min-height: 655px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__feed {
+            padding-top: 2%;
+            padding-left: 6%;
+            label {
+                display: block;
+            }
+        }
+        &__title {
+            padding-top: 8%;
+        }
+        &__subtitle {
+            font-size: 24px;
+        }
+        &__area {
+            width: 100%;
+        }
+        &__input {
+            width: 65%;
+            font-size: 20px;
+        }
+        &__span, &__span-two {
+            padding-left: 2.5%;
+            font-size: 20px;
+        }
+        &__success, &__success-Two {
+            padding-left: 2%;
+        }
+        &__control {
+            width: 90%;
+        }
+        &__radio {
+            font-size: 20px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__sum {
+            font-weight: 600;
+            font-size: 22px;
+            padding-top: 5%;
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .main-about {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10%;
+        &__back {
+            width: 200px;
+            min-height: 40px;
+            top: -6%;
+            &-link {
+                font-size: 22px;
+                line-height: 40px;
+                img {
+                    width: 25px;
+                }
+            }
+        }
+        &__title {
+            font-size: 26px;
+            padding-top: 8%;
+        }
+        &__form {
+            min-height: 655px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__feed {
+            padding: 15px;
+            label {
+                display: block;
+            }
+        }
+        &__input {
+            width: 88%;
+        }
+        &__span, &__span-two {
+            padding-left: 3%;
+        }
+        &__success-Third, &__success-Four, &__success-Five {
+            padding-left: 5%;
+        }
+        &__total {
+            width: 90%;
+            min-height: 120px;
+        }
+    }
+
+    .button {
+        &-continue {
+            margin: 8%;
+            font-size: 22px;
+        }
+    }
+
+    .main-done {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15%;
+        min-height: 450px;
+        &__close-link {
+            font-size: 18px;
+        }
+        &__title {
+            padding-top: 10%;
+            font-size: 28px;
+        }
+        &__descr {
+            margin-top: 8%;
+            font-size: 22px;
+            width: 95%;
+            min-height: 230px;
+        }
+        &__email {
+            line-height: 40px;
+            font-size: 22px;
+        }
+        &__phone {
+            line-height: 40px;
+            font-size: 22px;
+        }
+        &__close {
+            right: 2%;
+            &-link {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .main {
+        width: 100%;
+        margin: 0 auto;
+        &__form {
+            min-height: 655px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__feed {
+            padding-top: 2%;
+            padding-left: 6%;
+            label {
+                display: block;
+            }
+        }
+        &__title {
+            padding-top: 8%;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__input {
+            width: 60%;
+        }
+        &__span, &__span-two {
+            padding-left: 2%;
+            font-size: 20px;
+        }
+        &__success, &__success-Two {
+            padding-left: 4%;
+        }
+        &__control {
+            width: 90%;
+        }
+        &__radio {
+            font-size: 20px;
+            span {
+                font-size: 18px;
+            }
+        }
+        &__sum {
+            font-weight: 600;
+            font-size: 22px;
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .main-about {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 6%;
+        &__back {
+            width: 200px;
+            min-height: 40px;
+            top: -3.5%;
+            &-link {
+                font-size: 18px;
+                line-height: 22px;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+        &__title {
+            padding-top: 7%;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__form {
+            min-height: 655px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__feed {
+            padding-top: 2%;
+            padding-left: 6%;
+        }
+        &__input {
+            width: 88%;
+            font-size: 20px;
+        }
+        &__span, &__span-two {
+            padding-left: 3%;
+        }
+        &__success-Third, &__success-Four, &__success-Five {
+            padding-left: 5%;
+        }
+        &__total {
+            width: 90%;
+            min-height: 120px;
+        }
+    }
+
+    .button {
+        &-continue {
+            margin: 8%;
+            font-size: 22px;
+        }
+    }
+
+    .main-done {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 15%;
+        min-height: 450px;
+        &__close-link {
+            font-size: 18px;
+        }
+        &__title {
+            padding-top: 10%;
+            font-size: 28px;
+        }
+        &__descr {
+            margin-top: 8%;
+            font-size: 22px;
+            width: 95%;
+            min-height: 230px;
+        }
+        &__email {
+            line-height: 40px;
+            font-size: 22px;
+        }
+        &__phone {
+            line-height: 40px;
+            font-size: 22px;
+        }
+        &__close {
+            right: 2%;
+            &-link {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+
+ 

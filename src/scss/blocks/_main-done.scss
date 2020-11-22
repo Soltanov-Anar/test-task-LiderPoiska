@@ -1,0 +1,78 @@
+.faded {
+    animation-name: faded;
+    animation-duration: 1.5s;
+}
+  
+@keyframes faded {
+    from {
+      opacity: 0.1;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.main-done {
+    display: none;
+    position: relative;
+    min-height: 335px;     
+    width: 490px;
+    background: #FFFFFF;
+    margin: 107px 147px 98px 131px;
+    border: 2px solid #000;
+    &__close {
+        position: absolute;
+        top: -32px;
+        right: 0px;
+        height: 25px;
+        &-link {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 18px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    &__title {
+        padding-top: 29px;
+        font-size: 30px;
+        text-align: center;
+        color: #323232;
+        font-style: normal;
+        font-weight: normal;
+        margin-bottom: 0;
+        span {
+            color: #2F79D4;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    &__descr {
+        width: 402px;
+        height: 144px;
+        margin: 0 auto;
+        margin-top: 22px;
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #323232;
+        span {
+            color: #2F79D4;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.rouble {
+	font-family:'rouble';
+	font-weight: normal;
+    font-style: normal;
+}

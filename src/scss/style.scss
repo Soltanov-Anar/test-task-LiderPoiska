@@ -1,0 +1,32 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/animate';
+
+
+@import 'base/variables';
+@import 'base/animations';
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url('../img/bg.png') center (center/cover) no-repeat;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+
+
+@import 'blocks/titles';
+@import 'blocks/_main';
+@import 'blocks/_main-about';
+@import 'blocks/_main-done';
+
+@import 'blocks/buttons';
+@import 'base/media';
